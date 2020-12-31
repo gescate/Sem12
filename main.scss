@@ -1,0 +1,186 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sem12 {position: relative;}
+
+.reto1 {
+    margin-top: 20px;
+    width: 300px;
+}
+button {
+    width: 300px;
+    color: gray;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: palegreen;
+    padding: 20px;    
+    margin: 0px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+.container  {
+    display: none;
+    background-color: honeydew;
+    border-radius: 10px;
+    width: 200px ;
+    border: solid 1px palegreen;
+    margin: 0px 20px;
+    cursor: pointer;
+   
+}
+
+.container a {
+    
+ color: black;
+
+  padding-top: 5px;
+  text-decoration: none;
+  display: block;
+}
+
+.container a:hover {
+    background-color: lightgray;
+}
+
+.show, .show1 {display: block;}
+
+//reto2//
+
+.reto {
+
+    width: 100%;
+    height: 100%;
+  
+}
+
+p { color: black;
+background-color: whitesmoke;
+padding: 10px 20px;
+margin-bottom: 20px;
+}
+
+.separator {
+    height: 50px;
+}
+
+.accordion {
+    height: 20px;
+    padding: 10px;
+    margin: 70px 20px 10px 20px;
+    cursor: pointer;
+
+&:hover {
+    background-color: palegreen;
+
+}
+}
+
+.active {
+    background-color: palegreen;
+
+}
+
+
+
+.container1 {
+    height: 20px;
+    margin: 30px 20px;
+    display:none;
+  
+}
+
+
+//reto 3
+
+.cuadro {    
+    position: relative;
+    width: 500px;
+    margin: 30vh auto;
+    background-color: white;
+    padding-top: 20px;
+}
+
+.cerrar {
+    font-size: 20px;
+    padding-top: 10px;
+    margin: 0px;
+    right: -20px;
+    top: -20px;
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    background-color: red;
+    width: 40px;
+    height: 30px ;
+    text-align: center;
+    border-radius: 100%;
+}
+.modal2 {
+    position: fixed;
+background: rgba(0,0,0,0.5);
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+padding-top: 100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+display: none;
+}
+
+.modal1 {
+    position: fixed;
+background: rgba(0,0,0,0.5);
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+display: none;}
+
+.is-active {
+    display: block;
+}
+
+.cerrar2 {font-size: 20px;
+    padding-top: 10px;
+    margin: 0px;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    background-color: red;
+    width: 40px;
+    height: 30px ;
+    text-align: center;
+    border-radius: 100%;
+}
+
+
+.btn button {
+    width: 150px;
+    background-color: gray;
+    color: white;
+    padding: 10px 30px;
+    margin: 20px;
+}
+
+.btn2 button {
+    width: 150px;
+    background-color: rgb(78, 77, 77);
+    color: white;
+    padding: 10px 30px;
+    margin: 20px;
+}
+
+
